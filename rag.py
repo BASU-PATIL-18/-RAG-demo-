@@ -1,7 +1,3 @@
-import subprocess
-import sys
-
-subprocess.check_call([sys.executable, "-m", "pip", "install", "python-dotenv"])
 import streamlit as st# to create a web app interface
 import os # to access environment variables
 from dotenv import load_dotenv # to load environment variables from .env file

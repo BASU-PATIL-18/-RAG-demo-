@@ -3,10 +3,11 @@ python-dotenv
 PyPDF2
 google-generativeai
 
-langchain #core framework
-langchain-huggingface # connect huggingface models
-faiss-cpu # fast vector db to store embedded data
-langchain-community # extra integration
-langchain-text-splitters #to split large text into smaller chunks
-sentence-transformers #pretrained embedding models to convert text into vectors
-langchain-core # document ,chains,etc.
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+
+faiss-cpu
+sentence-transformers
